@@ -1,0 +1,50 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main-nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-nav {
+    width: 30%;
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+#nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(45, 54, 61, .7);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+
+}
+
+.menu-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .main-nav {
+        width: 50%;
+    }
+
+}

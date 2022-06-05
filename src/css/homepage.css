@@ -1,0 +1,189 @@
+.main-title-div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* width: 100%; */
+    align-items: center;
+    height: calc(100vh - 3rem);
+    /* height: 100vh; */
+
+}
+
+.main-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+    top: 25%;
+    /* top: max(25%, 30%) */
+}
+
+.designer {
+    font-size: 11.063rem;
+    /* font-size: min(15.5vw, 11.063rem); */
+
+    font-weight: 900;
+    padding: 0;
+    line-height: 7rem;
+    /* line-height: min(11vw, 7rem); */
+}
+
+.programmer {
+    font-size: 4.25rem;
+    /* font-size: min(6vw, 4.25rem); */
+    margin: 0;
+    font-weight: 900;
+}
+
+.programmer-mdf {
+    letter-spacing: calc(0.041rem * 70);
+    /* letter-spacing: min(2.85rem, 4vw); */
+}
+
+.motto {
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: .5rem;
+
+}
+
+.motto-mdf {
+    letter-spacing: calc(0.041rem * 4);
+}
+
+.ampersand {
+
+    position: absolute;
+    font-size: 11.063rem;
+    /* font-size: min(15.5vw, 11.063rem); */
+    font-weight: 900;
+    opacity: 15%;
+    top: 25%;
+}
+
+.say-hello-div {
+    margin-top: 20vh;
+
+    /* position: relative; */
+    /* bottom: 20vh; */
+}
+
+.say-hello {
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    margin: 0;
+}
+
+.main-title-div {
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .ampersand,
+    .main-title {
+
+        top: 35%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .designer {
+        font-size: 6.875rem;
+
+        line-height: 5rem;
+    }
+
+    .programmer {
+        font-size: 2.625rem;
+    }
+
+    .programmer-mdf {
+        letter-spacing: calc(0.041rem * 44);
+    }
+
+    .motto {
+        font-size: 1rem;
+
+    }
+
+    .motto-mdf {
+        letter-spacing: calc(0.041rem * 2.5);
+    }
+
+    .ampersand {
+        font-size: 6.875rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .designer {
+        font-size: 4.25rem;
+
+        line-height: 3rem;
+    }
+
+    .programmer {
+        font-size: 1.625rem;
+    }
+
+    .programmer-mdf {
+        letter-spacing: calc(0.041rem * 27);
+    }
+
+    .motto {
+        font-size: 0.625rem;
+
+    }
+
+    .motto-mdf {
+        letter-spacing: calc(0.041rem * 1.4);
+    }
+
+    .ampersand {
+        font-size: 4.25rem;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .designer {
+        font-size: 3.2rem;
+
+        line-height: 2rem;
+    }
+
+    .programmer {
+        font-size: 1.2rem;
+    }
+
+    .programmer-mdf {
+        letter-spacing: calc(0.041rem * 21);
+    }
+
+    .motto {
+        font-size: 0.45rem;
+
+    }
+
+    .motto-mdf {
+        letter-spacing: calc(0.041rem * 1.4);
+    }
+
+    .ampersand {
+        font-size: 3.2rem;
+    }
+}

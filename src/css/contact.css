@@ -1,0 +1,90 @@
+.ctact-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+.contact-div {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* height: 50%; */
+}
+
+.contact-title {
+    font-size: 6.875rem;
+    font-weight: 100;
+}
+
+.ending-tag {
+    position: absolute;
+    top: 0;
+    font-size: 11.063rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.lt,
+.slash,
+.gt {
+    margin: 0 .5rem;
+    font-weight: bold;
+    opacity: .2;
+}
+
+.email-copy {
+    text-decoration: underline;
+}
+
+.email-copy:hover {
+    cursor: pointer;
+}
+
+.email-copy-text {
+    text-align: center;
+}
+
+.email-copy-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 15%;
+    /* background-color: aqua; */
+}
+
+.email-copy-bg {
+
+    /* width: 25%; */
+    padding: .5rem;
+    border-radius: .313rem;
+    background-color: rgb(32, 39, 44, .7);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+
+    .lt,
+    .slash,
+    .gt {
+        font-size: 6.875rem;
+    }
+
+    .contact-title {
+
+        font-size: 2.625rem;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+.loading-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters {
+    margin: clamp(1.6px, 1rem, 32px);
+    margin: 1vw;
+
+}

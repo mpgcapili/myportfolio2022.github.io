@@ -1,0 +1,95 @@
+.web-des-div {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.web-des-title {
+    font-size: 2.625rem;
+    font-weight: bold;
+}
+
+
+.web-des-formula {
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-des-size {
+    width: 20%;
+    height: 100%;
+}
+
+.web-des-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.web-des-icons {
+    width: 10rem;
+    height: 10rem;
+}
+
+.responsive-title,
+.intuitive-title,
+.great-ui-title,
+.fast-title {
+    font-size: 1.625rem;
+}
+
+.html-bg-text {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    font-size: 11.063rem;
+    font-weight: bold;
+    z-index: -2;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+    .html-bg-text {
+
+        font-size: 6.875rem;
+    }
+
+    .web-des-formula {
+        flex-wrap: wrap;
+    }
+
+    .web-des-size {
+        width: 50%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .web-des-formula {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .web-des-size {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .web-des-icons {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .html-bg-text {
+        top: 6%;
+        font-size: 4.25rem;
+    }
+}
