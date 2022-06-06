@@ -80,7 +80,7 @@ const Contact = () => {
                 <motion.section className='contact-div'
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: "all" }}
+                    viewport={{ once: true }}
                     variants={contactDivAnimate}
                 >
 
