@@ -88,7 +88,7 @@ const WebDesignFormula = () => {
 
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: breakpoint600px ? 1 : .3 }}
+                    viewport={{ once: true }}
                 >
                     <motion.div className='responsive web-des-size web-des-flex '
                         variants={iconEachAnimate}
