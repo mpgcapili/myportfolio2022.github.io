@@ -29,8 +29,8 @@ const Scrolldown = ({ passRef }) => {
                     transition={{ duration: .5 }}
                 >
 
-                    <p className='scroll-text emp-font-color'>Scroll</p>
-                    <motion.div className='scroll-icon-animation-div emp-font-color'
+                    <p className='scroll-text'>Scroll</p>
+                    <motion.div className='scroll-icon-animation-div'
                         initial={{ y: "-1rem" }}
                         animate={{ y: 0 }}
                         transition={{ repeat: Infinity, duration: .8, repeatType: "reverse" }}
