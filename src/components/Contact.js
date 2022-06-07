@@ -76,7 +76,8 @@ const Contact = () => {
         <>
 
             <div className='ctact-div' id='contact'>
-                <EndTag />
+                {/* @todo: uncomment if we are fixing responsive design part */}
+                {/* <EndTag /> */}
                 <motion.section className='contact-div'
                     initial="hidden"
                     whileInView="visible"
