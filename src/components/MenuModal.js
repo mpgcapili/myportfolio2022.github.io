@@ -1,22 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Link } from 'react-scroll';
+import React, { useEffect } from 'react'
+import { motion } from 'framer-motion'
 import '../css/menumodal.css';
 import { MdClose } from "react-icons/md";
 
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-const navItemAnimate = {
 
-    visible: {
-        opacity: 1
-    },
-    exit: {
-        opacity: 0,
-        x: "3rem",
-        scale: 0,
-    }
-}
 const MenuModal = ({ showMenuModal, mainref }) => {
 
     const theme = useTheme();
@@ -27,7 +16,6 @@ const MenuModal = ({ showMenuModal, mainref }) => {
     bodyElement.className = "disable-scroll-main"
     htmlElement.className = "enable-smooth-scroll"
 
-    const [isClosedMenuModal, setIsClosedMenuModal] = useState(false)
 
     function closeMenuModal() {
         bodyElement.classList = "enable-scroll-main";

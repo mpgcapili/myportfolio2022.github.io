@@ -2,9 +2,8 @@ import { motion } from 'framer-motion'
 import React, { useEffect } from 'react'
 import '../css/scrolldown.css'
 
-import { useState, useCallback, useRef } from 'react';
+import { useState } from 'react';
 import { CgArrowLongDown } from "react-icons/cg";
-import { MdOpacity } from 'react-icons/md';
 
 const Scrolldown = ({ passRef }) => {
 
@@ -21,7 +20,6 @@ const Scrolldown = ({ passRef }) => {
 
     return (
         <>
-            {/* {!isVisib && */}
             <div className='scroll-down-div'>
                 <motion.div className='scroll-down'
                     initial={{ opacity: 1 }}
@@ -39,7 +37,6 @@ const Scrolldown = ({ passRef }) => {
                     </motion.div>
                 </motion.div>
             </div>
-            {/* } */}
         </>
     )
 }

@@ -3,7 +3,6 @@ import '../css/selectedprojects.css'
 import '../css/projectitems.css'
 import { motion } from 'framer-motion'
 import ProjectItems from './ProjectItems';
-import { Link } from 'react-router-dom';
 
 import useMediaQuery from '@mui/material/useMediaQuery';
 const appearWhileInViewAnimate = {

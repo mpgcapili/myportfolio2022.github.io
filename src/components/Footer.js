@@ -1,9 +1,6 @@
 import React from 'react'
 import '../css/footer.css'
-
-import { useState, useCallback, useEffect, useRef } from 'react';
 import { Link } from 'react-scroll';
-import Scrolldown from './Scrolldown';
 
 const Footer = () => {
 

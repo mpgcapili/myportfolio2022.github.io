@@ -2,13 +2,11 @@ import React, { useRef } from 'react'
 import { useState, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { Link as LinkRouter } from 'react-router-dom';
 import '../css/navigation.css';
-import { GiHamburgerMenu, GiOldLantern } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import MenuModal from './MenuModal';
-import { height } from '@mui/system';
 
 
 
@@ -25,9 +23,7 @@ const navItemAnimate = {
 }
 
 const Navigation = ({ isShowMenu, mainRef, homepageRef }) => {
-    const ref = useRef();
     const theme = useTheme();
-    const breakpointLg = useMediaQuery(theme.breakpoints.up('lg')); //min-width 1200px
     const [showModal, setShowModal] = useState(false);
     const breakpointMd = useMediaQuery(theme.breakpoints.up('md')); //min-width 900px
 

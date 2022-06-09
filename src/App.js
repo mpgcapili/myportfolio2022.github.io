@@ -1,6 +1,5 @@
 import './App.css';
 import Homepage from './components/Homepage';
-// import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import SelectedProjects from './components/SelectedProjects';
@@ -19,7 +18,6 @@ import Loading from './components/Loading';
 import NotFound from './components/NotFound';
 
 function App() {
-  const [showMenuModal, setShowMenuModal] = useState(false);
   const [selectedProject, setSelectedProjects] = useState([]);
   const footer = useRef();
   const main = useRef();

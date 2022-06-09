@@ -1,13 +1,10 @@
 import React from 'react'
 import '../css/webdesignformula.css';
-import { DiResponsive } from "react-icons/di";
-import { MdDevices, MdOutlineDesignServices, MdDevicesOther, MdOutlineDevices } from "react-icons/md";
+import { MdDevices, MdOutlineDesignServices } from "react-icons/md";
 import { AiOutlineRocket } from "react-icons/ai";
-import { BiDevices } from "react-icons/bi";
 import { motion } from 'framer-motion';
 import { RiEmotionHappyLine } from "react-icons/ri";
 
-import useMediaQuery from '@mui/material/useMediaQuery';
 const iconAnimate = {
     hidden: {
         opacity: 0,
@@ -51,7 +48,6 @@ const iconsubanimation = {
 }
 const WebDesignFormula = () => {
 
-    const breakpoint600px = useMediaQuery('(min-width:601px)');
     return (
         <>
             <section className='web-des-div'>

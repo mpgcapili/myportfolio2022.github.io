@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../css/projectitems.css'
-
 import { BsArrowRight, BsFillLockFill } from "react-icons/bs";
 import { motion } from 'framer-motion';
-
 import { useState } from 'react'
 import DocumentItemContainer from './DocumentItemContainer';
+
 const projImageAnimate = {
     hover: { scale: 1.1 },
     transition: {

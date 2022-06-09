@@ -56,8 +56,6 @@ const EndTag = () => {
 const Contact = () => {
     const [isEmailCopied, setIsEmailCopied] = useState(false);
 
-    let timeout;
-
     const CopiedEmailIndicator = () => {
         console.log(isEmailCopied);
         return (
@@ -92,7 +90,7 @@ const Contact = () => {
 
                     <motion.p
                         variants={contactItemAnimate}
-                    >Connect to me thru <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
+                    >Connect to me thru <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" rel="noreferrer" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
                         onClick={() => {
                             navigator.clipboard.writeText("mpgcapili@gmail.com")
                             setIsEmailCopied(true);

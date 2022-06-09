@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import React, { Component } from 'react'
+import React from 'react'
 import '../css/skills.css'
 const design = ['Web UI/UX', 'Design Systems', 'Animation (Framer motion)'];
 const development = ['HTML / CSS / JS(ES6+)', 'Responsive Layout', 'React.JS', 'Framer Motion', 'Styled Component', 'PL/SQL / SQL', 'Avaloq Script', 'CCM DocDesign'];
@@ -77,7 +77,7 @@ const Skills = () => {
                             variants={skillsIntroAnimate}
                             viewport={{ once: true }}
                             transition={{ duration: .8, delay: .5 }}>
-                            You can <a className='emp-font-color' href="./Resume - Miguel Paulo G. Capili.docx" target="_blank"><strong>Download my Resume</strong></a> or visit my <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" target="_blank"><strong>LinkedIn</strong></a>  to know more!</motion.p>
+                            You can <a className='emp-font-color' href="./Resume - Miguel Paulo G. Capili.docx" rel="noreferrer" target="_blank"><strong>Download my Resume</strong></a> or visit my <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" rel="noreferrer" target="_blank"><strong>LinkedIn</strong></a>  to know more!</motion.p>
                     </div>
                     <motion.div className='actual-skills'
                         initial="hidden"

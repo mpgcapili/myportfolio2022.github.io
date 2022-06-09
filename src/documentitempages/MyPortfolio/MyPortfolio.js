@@ -7,17 +7,13 @@ import { tabletlandscape } from './tablet.js'
 import { phone } from './phone.js'
 import { phonelandscape } from './phone.js'
 import { desktop, fddesktop } from './desktop.js'
-import Gallery from '../../components/Gallery.js';
-import { AnimateSharedLayout, motion } from 'framer-motion';
 import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-import { Link } from 'react-scroll';
 const MyPortfolio = () => {
 
     const breakpoint500px = useMediaQuery('(max-width:500px)');
     const [isEmailCopied, setIsEmailCopied] = useState(false);
-    const [isCloseBack, setIsCloseBack] = useState(false);
     // const offset = document.querySelector("demo").offsetTop;
     // window.scrollTo({ top: offset })
     const CopiedEmailIndicator = () => {
@@ -437,7 +433,7 @@ const MyPortfolio = () => {
                     <h2 className='like-my-work'>Like My Work?</h2>
                     <p
 
-                    >Do not hesitate to <strong>contact me</strong> through <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
+                    >Do not hesitate to <strong>contact me</strong> through <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" rel="noreferrer" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
                         onClick={() => {
                             navigator.clipboard.writeText("mpgcapili@gmail.com")
                             setIsEmailCopied(true);
