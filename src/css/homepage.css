@@ -188,6 +188,18 @@
     }
 }
 
+@media screen and (max-width: 1200px) and (min-height: 500px) {
+
+    .ampersand,
+    .main-title {
+        top: 13%;
+    }
+
+    .say-hello-div {
+        margin-top: 13vh;
+    }
+}
+
 @media screen and (max-width: 900px) and (max-height: 500px) {
 
     .ampersand,
