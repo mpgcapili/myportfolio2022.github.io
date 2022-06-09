@@ -187,3 +187,15 @@
         font-size: 3.2rem;
     }
 }
+
+@media screen and (max-width: 900px) and (max-height: 500px) {
+
+    .ampersand,
+    .main-title {
+        top: 10%;
+    }
+
+    .say-hello-div {
+        margin-top: 10vh;
+    }
+}
