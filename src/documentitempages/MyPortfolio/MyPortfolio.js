@@ -54,7 +54,7 @@ const MyPortfolio = () => {
                                     <p>Duration:</p>
                                 </div>
                                 <div className='overview-content'>
-                                    <p>1 month (including the development phase)</p>
+                                    <p>1 and a half month (including the development phase)</p>
                                 </div>
                             </div>
                             <div className='overview-contents'>
@@ -87,7 +87,7 @@ const MyPortfolio = () => {
 
                     <div className='context'>
                         <p className='rmv-mar-pad context-title'>Context:</p>
-                        <p>Portfolio is a general way of showing who you are, what do you do, and your current skillset, Most people who has portfolio generally target hiring, recruiters, and/or clients which they usually just scan your portfolio.</p>
+                        <p><strong>Portfolio is a general way of showing who you are, what do you do, and your current skillset</strong>. Most people who has portfolio generally target hiring, recruiters, and/or clients which they usually just scan your portfolio.</p>
                         <p>Now, I tasked myself to create a design where My portfolio would not make the target user even think where to go as the website itself would subconsiously direct them where to go.</p>
                     </div>
                     <div className='the-challenges'>
@@ -104,7 +104,7 @@ const MyPortfolio = () => {
                     <div className='research'>
                         <p className='bg-01-text'>01</p>
                         <p className='rmv-mar-pad research-title'>Research</p>
-                        <p>Based on my research, they do the following when interacting with your resume or porfolio</p>
+                        <p>Based on my research, <strong>they do the following when interacting with your resume or porfolio</strong></p>
                         <p>Recruiters will/might:</p>
                         <ul className='rec-list'>
                             <li className='rec-list-item'>Spends 6 seconds to scan</li>
@@ -118,7 +118,7 @@ const MyPortfolio = () => {
                             <li className='rec-list-item'>Your process</li>
                             <li className='rec-list-item'>The attitude of self-awareness</li>
                         </ul>
-                        <p>Recruiters mostly spend their time looking for potential candidates online (LinkedIn,  Jobstreet, Indeed, etc.) so they might use device which has different screensizes.</p>
+                        <p>Recruiters mostly <strong>spend their time looking for potential candidates online</strong> (LinkedIn,  Jobstreet, Indeed, etc.) so they might use device which has different screensizes.</p>
                     </div>
                     <div className='define'>
                         <p className='bg-02-text'>02</p>
@@ -401,33 +401,33 @@ const MyPortfolio = () => {
                     <div className='what-i-learned'>
                         <p className='rmv-mar-pad what-i-learned-title'>What I learned</p>
                         <ul className='i-learned-list'>
-                            <li>Designing Phase is very important! The very good analogy I can come up is the importance of blueprint when building a house.</li>
-                            <li>You have to know which your most target users are, because most of the content of the page will be based on that.</li>
-                            <li>Create a Design system, this will make the design more easier and consistent through out the development phase.</li>
-                            <li>Understand the color psychology and theory.</li>
-                            <li>Don’t jump into hi-fidelity wireframes immediately, too costly in terms of effort and time if there is some changes.</li>
-                            <li>In some cases, pixel perfect design doesn’t work, because we also have to keep in mind the responsiveness aspect of the website</li>
-                            <li>It is ok to go back to lo-fi wireframes if needed, because it is better to do all the necessary changes on the development phase rather than when the website is already live.</li>
-                            <li>Think of the Accessibility features of the Website in the early stage of design.</li>
+                            <li><strong>Designing Phase is very important!</strong> The very good analogy I can come up is the importance of blueprint when building a house.</li>
+                            <li>You have to <strong>know which your most target users are</strong>, because most of the content of the page will be based on that.</li>
+                            <li><strong>Create a Design system</strong>, this will make the design more easier and consistent through out the development phase.</li>
+                            <li><strong>Understand the color psychology and theory.</strong></li>
+                            <li><strong>Don’t jump into hi-fidelity wireframes immediately</strong>, too costly in terms of effort and time if there is some changes.</li>
+                            <li>In some cases, pixel perfect design doesn’t work, because we also have to <strong>keep in mind the responsiveness aspect of the website</strong></li>
+                            <li>It is ok to go back to lo-fi wireframes if needed, because it is <strong>better to do all the necessary changes on the development phase</strong> rather than when the website is already live.</li>
+                            <li><strong>Think of the Accessibility features</strong> of the Website in the early stage of design.</li>
                         </ul>
                     </div>
                     <div className='what-i-improve'>
                         <p className='rmv-mar-pad what-improve-title'>What I can improved</p>
                         <ul className='what-improve-list'>
-                            <li>Create a design system, because the development would be much easiser and consistent as the developer have guidelines.</li>
-                            <li>Create as well the responsive version of your website during your wireframing or ideate phase</li>
-                            <li>Prioritization. I usually sometime find myself stuck on something that is not technically possible. For example I was stuck on designing a layout with 200px, which is too small. The smallest phone I searched has 375 width pixels</li>
-                            <li>There should be a light mode on my portfolio. As accessibility is a huge factor in web, light and dark mode should be, in my  opinion, available in any website/app/devices.</li>
-                            <li>Accessibilty must also take into consideration in the early stages of design.</li>
+                            <li><strong>Create a design system</strong> , because the development would be much easiser and consistent as the developer have guidelines.</li>
+                            <li><strong>Create as well the responsive version of your website</strong> during your wireframing or ideate phase</li>
+                            <li><strong>Prioritization</strong>. I usually sometime find myself stuck on something that is not technically possible. For example I was stuck on designing a layout with 200px, which is too small. The smallest phone I searched has 375 width pixels</li>
+                            <li>There should be a light mode on my portfolio. As accessibility is a huge factor in web, <strong>light and dark mode</strong> should be, in my  opinion, available in any website/app/devices.</li>
+                            <li><strong>Accessibilty</strong> must also take into consideration in the early stages of design.</li>
                         </ul>
                     </div>
                     <div className='next-goal'>
                         <p className='rmv-mar-pad next-goal-title'>My Next Goal</p>
                         <ul className='next-goal-list'>
-                            <li>Learn more about how to harmonize color in more accurate way</li>
-                            <li>Learn more about how to create a good Design system</li>
-                            <li>Learn more about how to communicate better to the user during Usability Testing.</li>
-                            <li>Learn more about accessibility feature in website/app</li>
+                            <li>Learn more about how to <strong>harmonize color</strong> in more accurate way</li>
+                            <li>Learn more about how to create a good <strong>Design system</strong></li>
+                            <li>Learn more about how to <strong>communicate better</strong> to the user during Usability Testing.</li>
+                            <li>Learn more about <strong>accessibility</strong> feature in website/app</li>
                         </ul>
                     </div>
 
@@ -437,7 +437,7 @@ const MyPortfolio = () => {
                     <h2 className='like-my-work'>Like My Work?</h2>
                     <p
 
-                    >Do not hesitate to contact me through <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
+                    >Do not hesitate to <strong>contact me</strong> through <a className=' emp-font-color' href="https://www.linkedin.com/in/m-p-c/" target="_blank"><strong>LinkedIn</strong></a> or to my e-mail: <span className='emp-font-color email-copy'
                         onClick={() => {
                             navigator.clipboard.writeText("mpgcapili@gmail.com")
                             setIsEmailCopied(true);
