@@ -512,6 +512,7 @@
     .tablet-images,
     .tabletlandscape-images,
     .phonealandscape-images {
+        width: 98%;
         margin-top: .25rem;
         margin-bottom: .25rem;
     }
