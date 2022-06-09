@@ -138,10 +138,7 @@ const Navigation = ({ isShowMenu, mainRef, homepageRef }) => {
                                             }
                                         }}
                                         onClick={() => { setShowModal(true) }}
-                                        // onClick={() => {
-                                        //     ref.current = true;
-                                        //     console.log("logs ", ref.current)
-                                        // }}
+
                                         exit={{ opacity: 0 }}
                                     >
                                         <GiHamburgerMenu className='menu-icon' />
