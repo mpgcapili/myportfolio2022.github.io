@@ -32,3 +32,34 @@
 .doc-close-icon:hover {
     cursor: pointer;
 }
+
+.go-back {
+    width: 60%;
+    font-size: 1.25rem;
+    margin: 0 auto;
+}
+
+.go-back:hover {
+    color: #ada02a;
+    cursor: pointer;
+}
+
+
+.my-port-filler {
+    height: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+
+    .go-back {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+
+    .go-back {
+        width: 95%;
+    }
+
+}

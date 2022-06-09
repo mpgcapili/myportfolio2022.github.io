@@ -11,11 +11,15 @@ import Gallery from '../../components/Gallery.js';
 import { AnimateSharedLayout, motion } from 'framer-motion';
 import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
+
+import { Link } from 'react-scroll';
 const MyPortfolio = () => {
 
     const breakpoint500px = useMediaQuery('(max-width:500px)');
     const [isEmailCopied, setIsEmailCopied] = useState(false);
-
+    const [isCloseBack, setIsCloseBack] = useState(false);
+    // const offset = document.querySelector("demo").offsetTop;
+    // window.scrollTo({ top: offset })
     const CopiedEmailIndicator = () => {
         console.log(isEmailCopied);
         return (
@@ -32,8 +36,8 @@ const MyPortfolio = () => {
     }
     return (
         <>
-            <div className='myport-div'>
-                <h1 className='myport-title'>My Portfolio</h1>
+            <div className='myport-div' id="myport-div">
+                <h1 className='myport-title' id="myporttitle">My Portfolio</h1>
                 <p className='myport-subtitle'> <em>UI/UX, Front End Development</em></p>
                 <br />
                 <p>I believe that no matter how simple the design of the web or the app, UI/UX design plays an important role. <br /><br />
@@ -377,7 +381,7 @@ const MyPortfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='live-demo'>
+                    <div className='live-demo' id='demo'>
                         <p className='rmv-mar-pad live-demo-title'>Demo</p>
                         <p>Watch the demo of Desktop, Tablet, and Phone for Final Design below
 
@@ -447,8 +451,6 @@ const MyPortfolio = () => {
                         </>
                     }
                 </div>
-
-                <div className='my-port-filler'></div>
             </div >
         </>
     )

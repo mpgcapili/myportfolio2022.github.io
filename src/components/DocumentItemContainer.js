@@ -33,12 +33,16 @@ const DocumentItemContainer = ({ showDocItem, index }) => {
 
 
 
-            <div className='document-item-div'>
+            <div className='document-item-div' id='doc-item-div'>
                 <div className='icon-div'>
-                    <MdClose className='doc-close-icon' onClick={() => closeDocModal()} />
+                    <MdClose className='doc-close-icon' id='doc-close-icon' onClick={() => closeDocModal()} />
                 </div>
                 < DocumentItem index={index} />
-
+                <div className='rmv-ul-link emp-font-color go-back' onClick={() => closeDocModal()}>
+                    Go back
+                </div>
+                <div className='my-port-filler'>
+                </div>
             </div>
         </>
     )
