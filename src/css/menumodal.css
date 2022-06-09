@@ -52,10 +52,19 @@
 .menu-modal-item {
     /* padding-right: 100%; */
     text-align: center;
+    /* margin: 1rem 0; */
     margin: 1rem 0;
     width: 100%;
 }
 
 .menu-modal-item:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) and (max-height: 500px) {
+
+    .menu-modal-items-list {
+        font-size: 1.625rem;
+    }
+
 }
