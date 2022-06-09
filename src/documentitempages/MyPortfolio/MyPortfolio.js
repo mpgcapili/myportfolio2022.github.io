@@ -13,7 +13,8 @@ import { useState } from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 const MyPortfolio = () => {
 
-    const breakpoint500px = useMediaQuery('(max-width:500px)');
+    // const breakpoint500px = useMediaQuery('(max-width:500px)');
+    const breakpoint500px = false;
     const [isEmailCopied, setIsEmailCopied] = useState(false);
 
     const CopiedEmailIndicator = () => {
