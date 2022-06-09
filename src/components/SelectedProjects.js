@@ -41,7 +41,7 @@ const SelectedProjects = ({ projectitem }) => {
                         viewport={{ once: true }}
                     >Selected Projects</motion.h2>
                     {projectitem.map((project, index) =>
-                        <ProjectItems key={index} project={project} isBp500px={breakpoint500px} />
+                        <ProjectItems key={index} index={index} project={project} isBp500px={breakpoint500px} />
                     )}
 
                     <motion.p className='rmv-mar-pad ui-bg-text'

@@ -5,7 +5,7 @@ import { BsArrowRight, BsFillLockFill } from "react-icons/bs";
 import { motion } from 'framer-motion';
 
 import { useState } from 'react'
-import DocumentItem from './DocumentItem';
+import DocumentItemContainer from './DocumentItemContainer';
 const projImageAnimate = {
     hover: { scale: 1.1 },
     transition: {
@@ -29,8 +29,7 @@ const seeMoreHoverAnimate = {
     seeMoreIcon: { rotate: -35 }
 }
 
-const ProjectItems = ({ project, isBp500px }) => {
-
+const ProjectItems = ({ project, isBp500px, index }) => {
 
     const [isDocItemShow, setIsDocItemShow] = useState(false);
     console.log("isDocItemShow", isDocItemShow)
@@ -38,7 +37,7 @@ const ProjectItems = ({ project, isBp500px }) => {
         <>
             {isDocItemShow &&
                 <>
-                    <DocumentItem showDocItem={isdocitemshow => setIsDocItemShow(isdocitemshow)} />
+                    <DocumentItemContainer index={index} showDocItem={isdocitemshow => setIsDocItemShow(isdocitemshow)} />
                 </>
             }
 

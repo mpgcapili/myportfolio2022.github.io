@@ -3,7 +3,6 @@ import Homepage from './components/Homepage';
 // import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import { motion } from 'framer-motion';
 import SelectedProjects from './components/SelectedProjects';
 import About from './components/About';
 
@@ -18,7 +17,6 @@ import Scrolldown from './components/Scrolldown';
 import Navigation from './components/Navigation';
 import Loading from './components/Loading';
 import NotFound from './components/NotFound';
-import DocumentItem from './components/DocumentItem';
 
 function App() {
   const [showMenuModal, setShowMenuModal] = useState(false);

@@ -1,0 +1,517 @@
+.myport-div {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.myport-title {
+    font-size: 4.25rem;
+    margin: 0;
+}
+
+.myport-subtitle {
+    font-size: 1.625rem;
+    margin: 0;
+}
+
+.overview-title,
+.context-title,
+.challenge-title,
+.goal-title {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.ui-ux-design-div,
+.the-process-div,
+.final-design-div {
+    margin-top: 8rem
+}
+
+.ui-ux-design-title,
+.the-process-title,
+.final-design-title,
+.like-my-work {
+    font-size: 2.625rem;
+    margin: 0;
+}
+
+.overview,
+.context,
+.the-challenges,
+.the-goal {
+    width: 100%;
+    margin-top: 5rem;
+    /* display: flex; */
+}
+
+.overview {
+    margin-top: 1rem;
+}
+
+.overview-content-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-contents {
+    display: flex;
+}
+
+.overview-content-title {
+    width: 10%;
+    font-weight: 500;
+}
+
+.overview-content {
+    width: 90%;
+}
+
+.research,
+.define,
+.ideate,
+.testing,
+.iterate,
+.what-i-learned,
+.what-i-improve,
+.next-goal {
+    position: relative;
+    margin-top: 8rem;
+    /* margin: 8rem 0; */
+}
+
+.live-demo {
+    margin-top: 1rem;
+}
+
+.research {
+    margin-top: 1rem;
+}
+
+
+.bg-01-text,
+.bg-02-text,
+.bg-03-text,
+.bg-04-text,
+.bg-05-text {
+    position: absolute;
+    opacity: 10%;
+    font-size: 4.25rem;
+    margin: 0;
+    top: -1.5rem;
+    left: -3%;
+
+}
+
+
+
+.research-title,
+.define-title,
+.ideate-title,
+.testing-title,
+.iterate-title,
+.what-i-learned-title,
+.what-improve-title,
+.next-goal-title,
+.live-demo-title {
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+
+.rec-list,
+.userp-list,
+.problem-list,
+.nega-list,
+.posi-list,
+.accessibility-list,
+.i-learned-list,
+.what-improve-list,
+.next-goal-list,
+.next-goal-list {
+    list-style-type: disc;
+    padding-left: 3rem;
+}
+
+
+
+.rec-list-item,
+.userp-list li,
+.problem-list li,
+.nega-list li,
+.posi-list li,
+.accessibility-list li,
+.i-learned-list li,
+.what-improve-list li,
+.next-goal-list li {
+    margin-bottom: .5rem;
+}
+
+.i-learned-list,
+.what-improve-list,
+.next-goal-list {
+    margin-top: .5rem;
+}
+
+.userp-title,
+.problems-title,
+.sitemap-title,
+.wireframes-title,
+.sketches-title,
+.colors-title,
+.typography-title,
+.nega-title,
+.posi-title,
+.design-changes-title,
+.accessibility-title {
+    text-decoration: underline;
+    font-weight: 600;
+
+}
+
+.problems-title,
+.sitemap-title,
+.sketches-title,
+.wireframes-title,
+.colors-title,
+.typography-title {
+    margin-top: 4rem;
+}
+
+.up-list-item {
+    display: flex;
+}
+
+.up {
+    width: 25%;
+
+}
+
+.sitemap-img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sketch-image-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sketch-images {
+    /* height: 50rem; */
+    width: 48%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.desktop-div,
+.tablet-div,
+.phone-div {
+    /* width: 100vw; */
+    /* width: 70vw; */
+    position: relative;
+    /* margin: 0 auto; */
+    /* left: -10%; */
+    text-align: center;
+    /* background-color: #536370; */
+}
+
+
+.typography-div div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.color-grp {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.color-bg {
+    background-color: #2D363D;
+    border: 1px solid white;
+}
+
+.color-emp {
+    background-color: #FFED4D;
+    color: black;
+}
+
+.color-main {
+    background-color: #F0F8FF;
+    color: black;
+}
+
+.color-boxes {
+    background-color: #536370;
+    border: 1px solid white;
+}
+
+.typo-bold {
+    font-weight: 700;
+    font-size: 1.625rem;
+}
+
+.typo-medium {
+    font-weight: 500;
+    font-size: 1.625rem;
+}
+
+.typo-regular {
+    font-size: 1.625rem;
+}
+
+.typography-div h1 {
+    font-size: 2.625rem;
+}
+
+.typography-div h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.desktop-content,
+.tablet-content,
+.tablet-land-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fddesktop-content {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(83, 99, 112, .7);
+    backdrop-filter: blur(2rem);
+    border-radius: 10px;
+}
+
+.fddesktop-content .first-col {
+    margin-top: .5rem
+}
+
+.desktop-images,
+.tablet-images,
+.tabletlandscape-images,
+.phone-images,
+.phonealandscape-images {
+    width: 98%;
+    border-radius: 5px;
+}
+
+.phone-images,
+.phonealandscape-images {
+    width: 90%;
+}
+
+.feedbacks-div {
+    display: flex;
+
+}
+
+.first-col,
+.second-col {
+    width: 50%;
+    /* background-color: #FFED4D; */
+}
+
+.phone-land-content {
+    display: flex;
+}
+
+.phone-land-content div {
+    width: 33.3%;
+}
+
+.phone-second-col {
+    margin-top: 3rem;
+}
+
+.phone-third-col {
+    margin-top: 6rem;
+}
+
+.second-col {
+    margin-top: 3rem;
+}
+
+.nega-feedback,
+.posi-feedback {
+    width: 50%;
+}
+
+
+.my-contacts {
+    margin: 5rem 0;
+}
+
+.my-port-filler {
+    height: 10rem;
+}
+
+.my-port-email-copy-div {
+    display: flex;
+    justify-content: center;
+
+    /* position: fixed;
+    bottom: 10%; */
+}
+
+.my-port-email-copy-bg {
+
+    /* width: 25%; */
+
+    padding: .5rem;
+    border-radius: .313rem;
+    background-color: rgb(32, 39, 44, .7);
+    font-weight: bold;
+}
+
+.youtube {
+    width: 100%;
+    height: 40rem;
+}
+
+@media screen and (max-width: 1700px) {
+
+    .up {
+        width: 40%;
+    }
+
+    .up-desc {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .overview-content-title {
+        width: 20%;
+    }
+
+    .overview-content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .up {
+        width: 50%;
+    }
+
+    .up-desc {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .myport-div {
+        width: 70%;
+    }
+
+    .youtube {
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .up-list-item {
+        flex-direction: column;
+    }
+
+    .up-list-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .up {
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .up-desc {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .overview-contents {
+        flex-direction: column;
+    }
+
+    .overview-content-title p {
+        font-weight: bold;
+        margin-bottom: .1rem;
+    }
+
+    .overview-content {
+        width: 100%;
+    }
+
+    .overview-content p {
+
+        margin-top: 0;
+    }
+
+    .color {
+        flex-direction: column;
+    }
+
+    .color-grp {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    .myport-div {
+        width: 95%;
+    }
+
+    .youtube {
+        height: 25rem;
+    }
+
+    .sketch-image-div {
+        flex-direction: column;
+    }
+
+    .sketch-images {
+        width: 98%;
+        margin-bottom: .5rem;
+    }
+
+    .desktop-content,
+    .tablet-content,
+    .tablet-land-content,
+    .fddesktop-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desktop-images,
+    .tablet-images,
+    .tabletlandscape-images,
+    .phonealandscape-images {
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+    }
+}
