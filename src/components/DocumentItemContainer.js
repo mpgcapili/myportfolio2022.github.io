@@ -3,11 +3,14 @@ import React from 'react'
 import { MdClose } from "react-icons/md";
 import '../css/documentitemcontainer.css'
 import MyPortfolio from '../documentitempages/MyPortfolio/MyPortfolio.js';
+import ShopeeApp from '../documentitempages/ShopeeApp/ShopeeApp';
 
 const DocumentItem = ({ index }) => {
     switch (index) {
         case 0:
             return <MyPortfolio />
+        case 1:
+            return <ShopeeApp />
         default:
             return;
     }

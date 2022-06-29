@@ -1,0 +1,163 @@
+.shopee-div {
+    width: 60%;
+    /* height: 100%; */
+
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.shopee-title {
+    font-size: 4.25rem;
+    margin: 0;
+}
+
+.shopee-subtitle {
+    font-size: 1.625rem;
+    margin: 0;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.shopee-color-bg {
+    background-color: #FCFAFA;
+    color: black;
+}
+
+.shopee-color-logo {
+
+    background-color: #EE4D2D;
+    color: white;
+}
+
+.shopee-color-cta {
+
+    background-color: #841600;
+    color: white;
+}
+
+.sketches-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sketches-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopee-sketch-images {
+    width: 20rem;
+}
+
+.shopee-lofi-images {
+    width: 12rem;
+}
+
+.shopee-sketches-subtitle {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.shopee-vs-mydesign,
+.prev-vs-final-des {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.prev-vs-final-des {
+    flex-wrap: wrap;
+
+
+}
+
+.shopee-vs-mydesign div,
+.prev-vs-final-des div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prev-vs-final-des div p:first-of-type {
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.prev-vs-final-des div h3 {
+    margin-bottom: .5rem;
+}
+
+.shopee-main-prod-page {
+    width: 15rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .shopee-sketch-images {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .shopee-div {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .shopee-main-prod-page {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .shopee-sketch-images {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .shopee-sketch-images {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .shopee-sketch-images {
+        width: 90%;
+    }
+
+    .shopee-main-prod-page {
+        width: 10rem;
+    }
+
+    .shopee-lofi-images {
+        width: 10rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+    .shopee-div {
+        width: 95%;
+    }
+
+
+
+}

@@ -10,10 +10,10 @@
     {
         "title": "Shopee App",
         "subtitle": "UI/UX Design",
-        "overview": "Redesign of one of the famouse e-commerce app in the Philippines",
+        "overview": "Redesigning of one of the famous e-commerce app in the Philippines",
         "coverPhoto": "",
-        "isLocked": true,
-        "imageName": "/"
+        "isLocked": false,
+        "imageName": "./project-list-images/shopee-thumbnail.png"
     },
     {
         "title": "BIR",
