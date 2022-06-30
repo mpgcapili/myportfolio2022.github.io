@@ -12,6 +12,10 @@ import HiFi11 from "./finaldesign/Shopee Live.png";
 import HiFi12 from "./finaldesign/Item clicked - Main item.png";
 import HiFi13 from "./finaldesign/My Cart.png";
 import HiFi14 from "./finaldesign/Homepage page2.png";
+import HiFi15 from "./finaldesign/New Feature Add to cart page1.png";
+import HiFi16 from "./finaldesign/New Feature Add to cart page2.png";
+import HiFi17 from "./finaldesign/new feature Add to cart empty list.png";
+
 
 
 export const hifi = [
@@ -38,5 +42,12 @@ export const finaldes = [
     { img: HiFi01, subtitle: "Account Page" },
     { img: HiFi10, subtitle: "Seller Account" },
     { img: HiFi02, subtitle: "Business Insight Page" }
+
+];
+
+export const addtocart = [
+    { img: HiFi17, subtitle: "Empty Variation list" },
+    { img: HiFi15, subtitle: "Variation List" },
+    { img: HiFi16, subtitle: "Variation Selection" },
 
 ];

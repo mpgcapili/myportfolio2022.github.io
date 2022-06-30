@@ -60,7 +60,9 @@
 
 .shopee-lofi-images {
     width: 12rem;
+    border-radius: 20px;
 }
+
 
 .shopee-sketches-subtitle {
     margin-top: .5rem;
@@ -98,6 +100,7 @@
 
 .shopee-main-prod-page {
     width: 15rem;
+    border-radius: 20px;
 }
 
 

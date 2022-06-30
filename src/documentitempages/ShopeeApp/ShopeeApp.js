@@ -2,7 +2,8 @@ import React from 'react'
 import './shopee.css';
 import { images } from './sketches.js'
 import { lowfi } from './lofi.js'
-import { hifi, finaldes } from './hifi.js'
+import { hifi, finaldes, addtocart } from './hifi.js'
+import { finaldeswphone } from './finaldesign.js'
 import MainProductPage from './shopee app main product page.jpeg'
 import MyDesignMainProductPage from './finaldesign/Item clicked - Main item.png'
 import PrevComment from './finaldesign/hifi/compressed paragraph.png'
@@ -283,16 +284,31 @@ const ShopeeApp = () => {
                             <p>Design<strong>{isPrevCommentDes ? " after " : " before "}</strong>Feedback</p>
                         </div>
                     </div>
+                    <p>During the iteration phase, participants also <strong>suggested that they should have an option where when they add to cart, they can select multiple variation of 1 product item.</strong></p>
+                    <p>So I design a new version of selecting multiple variants of product item continuously and easily</p>
+                    <div className='sketches-shopee-div'>
+                        <ul className='sketches-list'>
+                            {
+                                addtocart.map((image, index) => (
+                                    <li key={index}><img className='shopee-lofi-images' src={image.img}
+                                        alt={image.subtitle} />
+                                        <p className='rmv-mar-pad shopee-sketches-subtitle'>{image.subtitle}</p>
+                                    </li>
+                                ))
+                            }
+                        </ul>
 
+                    </div>
                 </div>
 
                 <div className='final-design-div'>
                     <h2 className='final-design-title'>Final Design</h2>
-                    <p>After getting some feedback and doing iteration, this is the final design of the app</p>
+                    <p>After getting some feedback and doing iteration, here is the some of the final design of the app</p>
+                    <p>To see all the final designs, <a className='emp-font-color' href="./Shopee Final Design.pdf" rel="noreferrer" target="_blank"><strong>click here</strong></a></p>
                     <div className='sketches-shopee-div'>
                         <ul className='sketches-list'>
                             {
-                                finaldes.map((image, index) => (
+                                finaldeswphone.map((image, index) => (
                                     <li key={index}><img className='shopee-lofi-images' src={image.img}
                                         alt={image.subtitle} />
                                         <p className='rmv-mar-pad shopee-sketches-subtitle'>{image.subtitle}</p>
