@@ -16,19 +16,11 @@
         "imageName": "./project-list-images/shopee-thumbnail.png"
     },
     {
-        "title": "BIR",
-        "subtitle": "UI/UX, Front-End Dev",
-        "overview": "Redesign of the Bureau of Internal Revenue",
-        "coverPhoto": "",
-        "isLocked": true,
-        "imageName": "/"
-    },
-    {
         "title": "CAI Design",
         "subtitle": "UI/UX, Front-End Dev",
         "overview": "An online store for a Interior Designer, including Website and App version",
         "coverPhoto": "",
-        "isLocked": true,
+        "isLocked": false,
         "imageName": "/"
     },
     {
