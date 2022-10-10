@@ -4,13 +4,18 @@ import { MdClose } from "react-icons/md";
 import '../css/documentitemcontainer.css'
 import MyPortfolio from '../documentitempages/MyPortfolio/MyPortfolio.js';
 import ShopeeApp from '../documentitempages/ShopeeApp/ShopeeApp';
+import RowanMonitoring from '../documentitempages/RowanMonitoring/RowanMonitoring.js'
 
 const DocumentItem = ({ index }) => {
     switch (index) {
         case 0:
-            return <MyPortfolio />
+            return <RowanMonitoring />
         case 1:
             return <ShopeeApp />
+
+        case 2:
+            return <MyPortfolio />
+
         default:
             return;
     }
@@ -33,9 +38,6 @@ const DocumentItemContainer = ({ showDocItem, index }) => {
     // if index = 0 then show my portfolio 
     return (
         <>
-
-
-
             <div className='document-item-div' id='doc-item-div'>
                 <div className='icon-div'>
                     <MdClose className='doc-close-icon' id='doc-close-icon' onClick={() => closeDocModal()} />

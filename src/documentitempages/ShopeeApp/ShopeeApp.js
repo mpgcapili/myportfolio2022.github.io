@@ -274,14 +274,14 @@ const ShopeeApp = () => {
                             <h3>Main Product Page</h3>
                             <p><em>*click the picture to see the changes</em></p>
                             <img onClick={() => setIsMyDesMainProd(!isMyDesMainProd)} className='shopee-main-prod-page' src={isMyDesMainProd ? finaldes[2].img : hifi[1].img} alt={isMyDesMainProd ? finaldes[5].subtitle : hifi[2].subtitle} />
-                            <p>Design<strong>{isMyDesMainProd ? " after " : " before "}</strong>Feedback</p>
+                            <p>Design<strong><span className='emp-font-color'>{isMyDesMainProd ? " after " : " before "}</span></strong>Feedback</p>
 
                         </div>
                         <div>
                             <h3>Comment Page</h3>
                             <p><em>*click the picture to see the changes</em></p>
                             <img onClick={() => setIsPrevCommentDes(!isPrevCommentDes)} className='shopee-main-prod-page' src={isPrevCommentDes ? CurrentComment : PrevComment} alt={isMyDesMainProd ? finaldes[6].subtitle : hifi[3].subtitle} />
-                            <p>Design<strong>{isPrevCommentDes ? " after " : " before "}</strong>Feedback</p>
+                            <p>Design<strong><span className='emp-font-color'>{isPrevCommentDes ? " after " : " before "}</span></strong>Feedback</p>
                         </div>
                     </div>
                     <p>During the iteration phase, participants also <strong>suggested that they should have an option where when they add to cart, they can select multiple variation of 1 product item.</strong></p>
@@ -322,7 +322,7 @@ const ShopeeApp = () => {
 
                     <div className='what-i-learned'>
                         <p className='rmv-mar-pad what-i-learned-title'>What I learned</p>
-                        <p>Users mostly will only care about the ressult, but if you ask them some specific questions, some of their unforeseen pain points suddenly comes up.</p>
+                        <p>Users mostly will only care about the result, but if you ask them some specific questions, some of their unforeseen pain points suddenly comes up.</p>
                         <p>Example is that they didn't notice that I included the search bar in the main product page <u> (explained in 04. Testing Section)</u> until I asked them if is it a good idea to add that search bar.</p>
 
                         <p>So instead of finding the solution immediately, <strong>ask the correct questions first!</strong></p>
