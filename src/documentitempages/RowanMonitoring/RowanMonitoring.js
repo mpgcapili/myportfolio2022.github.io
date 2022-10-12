@@ -40,7 +40,7 @@ const RowanMonitoring = () => {
             <div className='rowan-div' id='rowan-div'>
                 <h1 className='rowan-title' id="rowan-title">Production Monitoring Tool</h1>
                 <p className='rowan-subtitle'> <em>UI/UX Design, Front End Development</em></p>
-                <p>Redesigning of the monitoring tools used in Sun life.</p>
+                <p>Redesigning of the monitoring tools used in one of the famous Insurance company in the Philippines</p>
 
                 <div className='ui-ux-div'>
                     <div className='overview'>
