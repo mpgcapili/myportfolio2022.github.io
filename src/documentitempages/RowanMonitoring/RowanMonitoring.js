@@ -51,7 +51,7 @@ const RowanMonitoring = () => {
                                     <p>Duration:</p>
                                 </div>
                                 <div className='overview-content'>
-                                    <p>3 months</p>
+                                    <p>1 month</p>
                                 </div>
                             </div>
                             <div className='overview-contents'>
