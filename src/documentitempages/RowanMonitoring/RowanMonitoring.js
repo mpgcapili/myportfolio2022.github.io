@@ -191,7 +191,7 @@ const RowanMonitoring = () => {
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img' src={NewDesLogin}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>New Design for Login Alerts</p>
                                         </div>
                                     </div>
 
@@ -203,12 +203,12 @@ const RowanMonitoring = () => {
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img' src={CurrDesDLBtn}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Download Button</p>
                                         </div>
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img' src={NewDesDLBtn}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>New Design for Download Button change to Export CSV</p>
                                         </div>
                                     </div>
 
@@ -220,12 +220,12 @@ const RowanMonitoring = () => {
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img' src={CurrDesAppSum}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Review Submission Summary</p>
                                         </div>
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img' src={NewDesAppSum}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>New Design for Review Submission Summary</p>
                                         </div>
                                     </div>
 
@@ -238,12 +238,12 @@ const RowanMonitoring = () => {
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img currvsnew-img-mdf' src={CurrDesTotalReport}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Total row in Reports</p>
                                         </div>
                                         <div className='currvsnew-items'>
                                             <img className='currvsnew-img currvsnew-img-mdf' src={NewDesTotalReport}
                                                 alt="current design login.png" />
-                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>Current Design for Login Alerts</p>
+                                            <p className='rmv-mar-pad rowan-sketches-subtitle'>New Design for Total row in Reports</p>
                                         </div>
                                     </div>
 
