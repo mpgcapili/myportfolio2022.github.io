@@ -129,7 +129,7 @@ const ShopeeApp = () => {
                             <ul className='rec-list'>
                                 <li className='rec-list-item font-medium'><em>Randomly clicking to get the feel of the app</em></li>
                                 <li className='rec-list-item font-medium'><em>Check cart to buy items</em></li>
-                                <li className='rec-list-item font-medium'><em>Search for a specific ite</em></li>
+                                <li className='rec-list-item font-medium'><em>Search for a specific items</em></li>
                                 <li className='rec-list-item font-medium'><em>Check chat to see some replies/inquiries</em></li>
                                 <li className='rec-list-item font-medium'><em>Add to cart an item to buy</em></li>
                                 <li className='rec-list-item font-medium'><em>Check the status of the item (both for sellers and buyers)</em></li>
@@ -154,7 +154,7 @@ const ShopeeApp = () => {
                 <div className='define'>
                     <p className='bg-02-text'>02</p>
                     <p className='rmv-mar-pad define-title'>Define</p>
-                    <p>Based on the research, the high level of thee problem that we can define is that: </p>
+                    <p>Based on the research, the high level of the problem that we can define is that: </p>
 
                     <ul className='rec-list'>
                         <br />
@@ -246,13 +246,13 @@ const ShopeeApp = () => {
                             <p className='posi-title'><em>Positive Feedback</em></p>
                             <ul className='posi-list'>
                                 <li>Overall feel of the design feels comfortable to use and easy to read</li>
-                                <li>Know where to look as the sectiinos is very organized</li>
+                                <li>Know where to look as the sections is very organized</li>
                                 <li>Seller account is outstanding! they can see the shop performance immediately</li>
                                 <li>Overall look feels modern</li>
                             </ul></div>
                     </div>
                     <p>During this phase, some participants agreed that it would be better to give a solution where it <strong>allows them to access the search bar after a product is clicked</strong>.</p>
-                    <p>To explain this visually , here is the comparison between the official design of Shopee App and my design:</p>
+                    <p>To explain this visually, here is the comparison between the official design of Shopee App and my design:</p>
                     <div className='shopee-vs-mydesign'>
                         <div>
                             <img className='shopee-main-prod-page' src={MainProductPage} alt="Official Shopee Design" />
