@@ -2,19 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// this has been set to manual, to avoid having some "bugs" in animation, 
-// bug is that when you refresh the page, andd this is set to auto, somehow, some of those elements with framer motion whileinview, will be executed even though you are not still in view.
-window.history.scrollRestoration = 'manual';
-
-// let canControlScrollRestoration = 'scrollRestoration' in window.history
-// console.log(canControlScrollRestoration)
-// const setScrollPos = () => {
-//   sessionStorage.setItem('scrollpos', window.scrollY);
-// }
-// window.addEventListener("beforeunload", setScrollPos);
-// window.removeEventListener("beforeunload", setScrollPos);
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <App />
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

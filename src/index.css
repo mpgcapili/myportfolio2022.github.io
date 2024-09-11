@@ -1,92 +1,18 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/* body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2D363D;
-
-  color: #F0F8FF;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-/* global format */
-
-/* remove padding, styles in ul */
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* remove underline */
-li {
-  text-decoration: none;
-}
-
-/* main font color */
-.main-font-color {
-  color: #F0F8FF;
-}
-
-/* empahisis font color */
-.emp-font-color {
-  color: #FFED4D;
-}
-
-/* remove underline in Link */
-.rmv-ul-link {
-  text-decoration: none;
-}
-
-/* remove scrollbar */
-body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
-}
-
-/* remove margins and padding in p */
-.rmv-mar-pad {
-  margin: 0;
-  padding: 0;
-}
-
-/* add bullet point  */
-.skill-bullet-pt {
-  list-style-type: disc;
-  padding-left: 1rem;
-}
-
-/* disable scroll on main  */
-.disable-scroll-main {
-  overflow: hidden;
-}
-
-/* enable scroll on main  */
-
-.enable-scroll-main {
-  overflow-y: auto;
-}
-
-.enable-smooth-scroll {
-
-  scroll-behavior: smooth;
-}
-
-.disable-smooth-scroll {
-
-  scroll-behavior: unset;
-}
+} */

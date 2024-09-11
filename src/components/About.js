@@ -1,132 +1,99 @@
-import React from 'react'
-import '../css/about.css'
-import MyPic from '../about-me-images/my-pic.jpg'
-import { FiLinkedin } from "react-icons/fi";
-import { motion } from 'framer-motion';
-
-const appearWhileInViewAnimate = {
-    hidden: {
-        y: "3rem",
-        opacity: 0
-    },
-    visible: {
-        y: 0,
-        opacity: 1
-    }
-}
-
-const About = () => {
-    return (
-        <>
-            <section className='about-container' id='about'>
-                <div className='about-div rmv-mar-pad'>
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import pp from "../pp1st.jpg"
 
 
-                    <motion.h2 className='rmv-mar-pad about-title'
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        variants={appearWhileInViewAnimate}
-                        transition={{
-                            duration: 1
-                        }}
-                    >About Me</motion.h2>
 
-                    <div className='about-me-div'>
-                        <div className='image-div'>
-                            <motion.img loading="lazy" className='image'
-
-                                initial={{
-                                    x: "-4rem",
-                                    opacity: 0
-                                }}
-                                whileInView={{
-                                    x: 0,
-                                    opacity: 1
-                                }}
-                                transition={{
-                                    duration: 1
-                                }}
-                                viewport={{ once: true }}
-                                src={MyPic} alt="my-picture.jpg" />
+//es6 no return statement because after the => its assume that the fucntion will return it
+const About = () =>
+    <>
+        <div className="flex flex-col items-center mx-5">
+            <div className=" flex flex-col justify-start gap-5 items-center
+            w-[320px]
+            sm:w-[550px] 
+            md:w-[640px] md:items-start">
+                <div className="flex flex-col gap-3">
+                    <div className="flex justify-start gap-4">
+                        <div className="w-[320px] h-[400px]">
+                            <img className="w-full h-full" src={pp} alt="profile" />
                         </div>
-                        <div className='about-me-details'>
-                            <motion.div className='background'
-                                initial={{ scale: .5, opacity: 0 }}
-                                whileInView={{ scale: 1, opacity: 1 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: .4 }}
-                            >
-                                <motion.p className='rmv-mar-pad name'
-
-                                    variants={appearWhileInViewAnimate}
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    viewport={{ once: true }}
-                                    transition={{
-                                        duration: 1,
-                                    }}
-                                >Hi, I'm Miguel</motion.p>
-                            </motion.div>
-                            <motion.div className='about-details'
-
-                            >
-                                <motion.p
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    variants={appearWhileInViewAnimate}
-                                    viewport={{ once: true }}
-                                    transition={{
-                                        duration: 1,
-                                        delay: .1
-                                    }}>A Software Engineer with 4 years of experience. In those 4 years, I have been a back-end software engineer for a proprietary technology. </motion.p>
-                                <motion.p
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    variants={appearWhileInViewAnimate}
-                                    viewport={{ once: true }}
-                                    transition={{
-                                        duration: 1,
-                                        delay: .2
-                                    }}>I am a self-taught <strong className='emp-font-color'>UI/UX Designer</strong> and <strong className='emp-font-color'>Front-end Developer</strong> that based on Philippines. </motion.p>
-                                <motion.p
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    variants={appearWhileInViewAnimate}
-                                    viewport={{ once: true }}
-                                    transition={{
-                                        duration: 1,
-                                        delay: .3
-                                    }}>I love designing, coding, and learning, that is why on April of this year 2022, I started to get serious to learn and <strong className='emp-font-color'>specialize my skills in Front-End Development and specially, in UI/UX Designing.</strong></motion.p>
-                                <motion.div
-                                    variants={appearWhileInViewAnimate}
-                                    initial="hidden"
-                                    whileInView="visible"
-                                    viewport={{ once: true }}
-                                    transition={{
-                                        duration: 1,
-                                        delay: .4
-                                    }}
-                                >
-                                    <FiLinkedin className='linkedin-icon' />
-                                </motion.div>
-                            </motion.div>
-
-
+                        <div className="hidden
+                        md:text-8xl md:font-bold md:block">
+                            <p>HI,</p>
+                            <p>I'M</p>
+                            <p>MIGO</p>
                         </div>
+                    </div>
+                    <div >
+                        <a href="https://www.linkedin.com/in/m-p-c/" target="_blank" rel="noopener noreferrer"> <BsLinkedin className="w-6 h-6 text-[#0A66C2]" /></a>
 
                     </div>
+                </div>
+                <div>
+                    <p className="font-semibold text-xl
+                md:hidden
+                ">HI, IM MIGO</p>
 
-                    <motion.p className='rmv-mar-pad reactjs-bg-text'
-                        initial={{ x: "3rem", opacity: 0 }}
-                        whileInView={{ x: 0, opacity: .1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: .8 }}
-                    >REACT.JS</motion.p>
-                </div >
-            </section>
-        </>
-    )
-}
+                    <br />
+                    <p><b>UI/UX Designer</b> based in Philippines.</p>
+                    <br />
+                    <p> I have a <b>passion for creative works</b>, that is why even though I am a software engineer by profession, I now pursue UI/UX Design as a full time career.</p>
+                    <br />
+                    <p>My aim is to <b>create a realistic design</b> that is why I equipped myself with knowledge of the basic web development: <b>HTML, CSS, and Javascript(React.js)</b>.</p>
+                    <br />
+                    <p>I also learned some CSS frameworks like <b>Tailwind</b>.</p>
 
-export default About
+                    <br />
+                    <p>And I used those knowledge to create this portfolio.</p>
+                </div>
+                <div className="pt-8">
+                    <p className="font-bold text-xl">Skills</p>
+                    <p>Below are the summarized version of my skills, you can Download my Resume to know more! </p>
+                    <div className="mt-5 grid grid-cols-1 gap-8
+                    sm:grid-cols-2
+                    *:flex *:flex-col ">
+                        <div >
+                            <p className="font-semibold">Web Development</p>
+                            <ul className="list-disc pl-6">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>ReactJS</li>
+                                <li>Tailwind</li>
+                                <li>Framer Motion</li>
+                            </ul>
+                        </div>
+                        <div >
+                            <p className="font-semibold">Design</p>
+                            <ul className="list-disc pl-6">
+                                <li>Web UI/UX</li>
+                                <li>Design Systems</li>
+                                <li>Design Thinking</li>
+                            </ul>
+                        </div>
+
+                        <div >
+                            <p className="font-semibold">Soft Skills</p>
+                            <ul className="list-disc pl-6">
+                                <li>Lead</li>
+                                <li>Active Listening</li>
+                                <li>Communication</li>
+                                <li>Time Management</li>
+                                <li>Critical Thinking</li>
+                                <li>Willingness and ability to learn</li>
+                            </ul>
+                        </div>
+                        <div >
+                            <p className="font-semibold">Tools</p>
+                            <ul className="list-disc pl-6">
+                                <li>Figma</li>
+                                <li>Visual Studio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p>Connect to me through  <a href="https://www.linkedin.com/in/m-p-c/" target="_blank" rel="noopener noreferrer"> <b><u>LinkedIn</u></b></a> or to my email: <b>mpgcapili@gmail.com</b></p>
+            </div>
+        </div>
+    </>
+
+export default About;
