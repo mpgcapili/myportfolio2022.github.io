@@ -48,7 +48,7 @@ const About = () =>
                 </div>
                 <div className="pt-8">
                     <p className="font-bold text-xl">Skills</p>
-                    <p>Below are the summarized version of my skills, you can Download my Resume to know more! </p>
+                    <p>Below are the summarized version of my skills, you can <b><a href="./Miguel Paulo G. Resume 2024.pdf" target="_blank" download > <u>Download my Resume</u></a></b> to know more! </p>
                     <div className="mt-5 grid grid-cols-1 gap-8
                     sm:grid-cols-2
                     *:flex *:flex-col ">
