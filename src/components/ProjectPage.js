@@ -9,7 +9,7 @@ import Quickstart from "./Projects/Quickstart";
 import PersonalArtwork from "./Projects/PersonalArtwork";
 import ErrorPage from "./ErrorPage";
 
-import SmoothScroll from '../SmoothScroll';
+// import SmoothScroll from '../SmoothScroll';
 export const Display = () => {
 
     let project = useParams();
@@ -39,7 +39,7 @@ const ProjectPage = () => {
     return (
         <>
             <div className="flex justify-center ">
-                <SmoothScroll />
+                {/* <SmoothScroll /> */}
                 <div className=" mx-5
             sm:max-w-4xl 
             ">
