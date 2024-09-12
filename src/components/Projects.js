@@ -2,8 +2,6 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import { motion } from "framer-motion";
 
-import SmoothScroll from '../SmoothScroll';
-
 
 
 //es6 no return statement because after the => its assume that the fucntion will return it
@@ -24,7 +22,6 @@ const Projects = () => {
     return (
 
         <>
-            <SmoothScroll />
             <motion.ul
                 className="flex flex-col gap-5 items-center mx-5 mt-4
             *:w-full *:min-w-[360px] *:h-[344px] *:rounded-[20px] *:p-10 
