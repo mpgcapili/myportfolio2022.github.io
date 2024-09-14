@@ -17,11 +17,13 @@ import reyna from "../../Images/Artworks/reyna.jpg"
 const PersonalArtwork = () => {
     return (
         <div className=''>
+            <div className="text-3xl font-bold">Digital Artist.</div>
+            <br />
             <P>As I am passionate about my UI/UX career. I am also passionate on other creatives works. During my off time, you will find me making digital artwork.</P>
             <P>Drawing has been my safe space, this is my way for me to express the other side of creativity outside UI/UX</P>
             <P>Below are some of the artworks I did.</P>
             <div className='grid grid-cols-2 
-            sm:grid-cols-3'>
+            sm:grid-cols-3 '>
                 <Image classname="w-full" noGap={true} src={aki} alt="" />
                 <Image classname="w-full" noGap={true} src={woman} alt="" />
                 <Image classname="w-full" noGap={true} src={denji} alt="" />

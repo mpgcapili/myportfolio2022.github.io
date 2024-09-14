@@ -40,7 +40,7 @@ const ProjectPage = () => {
             <div className="flex justify-center ">
                 <div className=" mx-5
             sm:max-w-4xl 
-            ">
+            my-10">
                     <Display />
                 </div>
             </div>
